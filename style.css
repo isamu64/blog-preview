@@ -48,6 +48,7 @@ p {
   background-color: hsl(0, 0%, 100%);
   border-radius: 16px;
   border: 1px solid;
+  box-shadow: 10px 10px 5px black;
 }
 
 .logo {
