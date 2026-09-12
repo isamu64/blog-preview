@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
 
 /* .outfit-<uniquifier > {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  
 } */
 
 * {
@@ -14,6 +11,7 @@
 
 html {
   font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
 }
 
 .attribution {
@@ -22,4 +20,85 @@ html {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.card-container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  padding: 24px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 16px;
+  border: 1px solid;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+h1 {
+  font-weight: 850;
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: hsl(0, 0%, 7%);
+}
+
+h2 {
+  /* display: inline; */
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  color: hsl(0, 0%, 7%);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: hsl(0, 0%, 7%);
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: hsl(0, 0%, 42%);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.image-author {
+  width: 32px;
+  height: 32px;
 }
