@@ -1,106 +1,70 @@
-# Frontend Mentor - Blog preview card
+# Frontend Mentor - Solution Blog preview card
 
-![Aperçu du design pour le challenge de codage Blog preview card](./preview.jpg)
+Voici ma solution au [challenge Blog preview card sur Frontend Mentor](https://github.com/isamu64/blog-preview). Les challenges Frontend Mentor vous permettent d'améliorer vos compétences en développement en réalisant des projets réalistes.
 
-## Bienvenue ! 👋
+## Table des matières
 
-Merci d'avoir consulté ce challenge de développement front-end.
+- [Présentation](#présentation)
+  - [Le challenge](#le-challenge)
+  - [Capture d'écran](#capture-décran)
+  - [Liens](#liens)
 
-[Frontend Mentor](https://www.frontendmentor.io) propose des challenges qui vous permettent d'améliorer vos compétences en développement en réalisant des projets réalistes.
+- [Mon processus](#mon-processus)
+  - [Réalisé avec](#réalisé-avec)
+  - [Ce que j'ai appris](#ce-que-jai-appris)
+  - [Développement futur](#développement-futur)
+  - [Ressources utiles](#ressources-utiles)
+  - [Collaboration avec l'IA](#collaboration-avec-lia)
 
-**Pour réaliser ce challenge, vous devez avoir une connaissance de base du HTML et du CSS.**
+- [Auteur](#auteur)
+- [Remerciements](#remerciements)
 
-## Le challenge
+## Présentation
 
-Votre challenge consiste à réaliser cette carte d'aperçu d'article de blog et à obtenir un rendu aussi proche que possible du design fourni.
+Le but de l'exercice est de créer une carte d'un blog centré dans la page avec plusieurs éléments textuels incluent dans la carte.
 
-Vous pouvez utiliser les outils de votre choix pour réaliser ce challenge. Si vous souhaitez mettre en pratique quelque chose en particulier, n'hésitez pas à l'utiliser.
+### Le challenge
 
 Les utilisateurs doivent pouvoir :
 
-- Voir les états de survol et de focus pour tous les éléments interactifs de la page.
+- Voir les états **hover** et **focus** de tous les éléments interactifs de la page.
 
-### Besoin d'aide pour le challenge ?
+### Capture d'écran
 
-[Rejoignez notre communauté](https://www.frontendmentor.io/community) et posez vos questions dans le canal **#help**.
+![](/sources/blog-preview-main/assets/images/Capture%20d’écran%202026-09-13%20à%207.37.49 PM.png)
 
-## Où trouver tout ce dont vous avez besoin
+## Liens
 
-Votre tâche consiste à réaliser le projet en vous basant sur les designs disponibles dans le dossier `/design`. Vous y trouverez une version mobile et une version desktop du design.
+- URL de la solution : https://github.com/isamu64/blog-preview
+- URL du site en ligne : https://isamu64.github.io/blog-preview/
+- URL du challenge : https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
 
-Les designs sont fournis au format JPG statique. L'utilisation de JPG signifie que vous devrez faire preuve de discernement pour déterminer des styles tels que la `font-size`, les `padding` et les `margin`.
+## Mon processus
 
-Si vous souhaitez disposer du fichier de design Figma afin de vous familiariser avec des outils professionnels et de réaliser des projets plus fidèles aux designs plus rapidement, vous pouvez [souscrire à un abonnement PRO](https://www.frontendmentor.io/pro).
+J'ai utilisé Flexbox, HTML et CSS pour réaliser ce challenge. J'ai eu du mal avec le responsive mais là je commence à mieux comprendre certaines choses. Par contre, le texte du paragraphe ne se met pas comme il le devrait.
 
-Tous les éléments nécessaires à ce projet se trouvent dans le dossier `/assets`. Les images sont déjà exportées à la bonne taille et optimisées.
+### Réalisé avec
 
-Nous fournissons également les fichiers de police en versions variable et statique pour les polices requises pour ce projet. Vous pouvez choisir de les importer depuis Google Fonts ou d'utiliser les fichiers de police locaux et de les héberger vous-même. Nous avons supprimé les fichiers de police statiques correspondant aux graisses qui ne sont pas nécessaires pour ce projet.
+- Balisage HTML5 sémantique
+- Propriétés CSS personnalisées
+- Flexbox
 
-Un fichier `style-guide.md` contient également les informations dont vous aurez besoin, notamment la palette de couleurs et les polices.
+### Ce que j'ai appris
 
-## Utilisation d'assistants de programmation IA
+J'en ai appris un peu plus sur le responsive mais il reste encore un problème à régler car à 320px de largeur de viewport et jusqu'a 323px de largeur de viewport, le texte de mon paragraphe ne se place pas comme sur la maquette Figma fournit. J'y ai passé des heures avec Chat GPT pour m'aider mais on n'a pas réussi à trouver la solution.
 
-Nous avons inclus deux fichiers pour vous aider si vous utilisez des assistants de programmation IA (comme Claude, GitHub Copilot, Cursor, etc.) pour réaliser ce challenge :
+### Développement futur
 
-- `AGENTS.md` — Contient des instructions détaillées destinées aux assistants IA sur la manière de vous aider pour ce challenge. Elles sont adaptées au niveau de difficulté du challenge : l'IA apportera davantage d'aide pour les challenges destinés aux débutants et encouragera davantage d'autonomie pour les challenges plus avancés.
-- `CLAUDE.md` — Un fichier qui redirige les outils basés sur Claude vers le fichier `AGENTS.md`.
+Il faut que je pratique encore et encore le responsive design pour trouver les bons réflexes et une façon de coder qui m'évite trop de complications.
 
-**Comment les utiliser :** Vous n'avez rien à faire ! La plupart des outils de programmation IA détectent automatiquement ces fichiers. L'IA les lira et adaptera son comportement afin de devenir un meilleur partenaire d'apprentissage, en vous guidant vers les solutions plutôt qu'en vous donnant directement les réponses.
+### Ressources utiles
 
-**Remarque :** Ces fichiers sont conçus pour vous aider à apprendre, et non pour faire le travail à votre place. L'IA est invitée à poser des questions, donner des indices et expliquer les concepts plutôt qu'à écrire des solutions complètes.
+- Resource 1: https://developer.mozilla.org/fr/ — Ressource indispensable
 
-## Réaliser votre projet
+### Collaboration avec l'IA
 
-Vous pouvez utiliser la méthode de travail qui vous convient le mieux. Voici toutefois un processus suggéré, mais vous n'êtes absolument pas obligé de suivre ces étapes :
+J'ai utilisé Chat GPT pour me débloquer certaines situations et m'expliquer mes blocages. C'était parfois difficiles car plusieurs notions de CSS entraient en jeu en même temps. Ceci dit, on n'a pas réussi à régler le problème de wrapping du paragraphe entre 320px et 323px de largeur du viewport.
 
-1. Initialisez votre projet comme un dépôt public sur [GitHub](https://github.com/). Créer un dépôt vous permettra de partager facilement votre code avec la communauté si vous avez besoin d'aide. Si vous ne savez pas comment faire, [consultez cette ressource Try Git](https://try.github.io).
-2. Configurez votre dépôt afin de publier votre code à une adresse web. Cela sera également utile si vous avez besoin d'aide pendant un challenge, car vous pourrez partager l'URL de votre projet avec l'URL de votre dépôt. Il existe plusieurs façons de procéder et nous proposons plusieurs recommandations ci-dessous.
-3. Examinez les designs afin de commencer à planifier la manière dont vous allez aborder le projet. Cette étape est essentielle pour réfléchir à l'avance aux classes CSS que vous allez créer et réutiliser.
-4. Avant d'ajouter des styles, structurez votre contenu avec le HTML. Écrire d'abord votre HTML peut vous aider à vous concentrer sur la création d'un contenu correctement structuré.
-5. Écrivez les styles de base de votre projet, notamment les styles généraux du contenu comme `font-family` et `font-size`.
-6. Commencez à ajouter les styles en partant du haut de la page et progressez vers le bas. Ne passez à la section suivante que lorsque vous êtes satisfait de la partie sur laquelle vous travaillez.
+## Auteur
 
-## Mettre votre projet en ligne
-
-Comme indiqué précédemment, il existe de nombreuses façons d'héberger gratuitement votre projet. Nos hébergeurs recommandés sont :
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-Vous pouvez héberger votre site avec l'une de ces solutions ou avec l'un de nos autres fournisseurs de confiance. [En savoir plus sur nos hébergeurs recommandés et approuvés](https://www.frontendmentor.io/guides/hosting-your-solution).
-
-## Créer un fichier `README.md` personnalisé
-
-Nous vous recommandons fortement de remplacer ce `README.md` par un README personnalisé. Nous avons fourni un modèle dans le fichier [`README-template.md`](./README-template.md) inclus dans le code de départ.
-
-Le modèle vous donne des indications sur les informations à ajouter. Un README personnalisé vous permettra d'expliquer votre projet et de réfléchir à ce que vous avez appris. N'hésitez pas à modifier le modèle autant que vous le souhaitez.
-
-Une fois que vous avez ajouté vos informations au modèle, supprimez ce fichier et renommez le fichier `README-template.md` en `README.md`. Il apparaîtra alors comme le README de votre dépôt.
-
-## Soumettre votre solution
-
-Soumettez votre solution sur la plateforme afin que le reste de la communauté puisse la voir. Consultez notre [guide complet pour soumettre vos solutions](https://www.frontendmentor.io/guides/how-to-submit-solutions) pour obtenir des conseils.
-
-N'oubliez pas que si vous souhaitez recevoir des retours sur votre solution, pensez à poser des questions lors de sa soumission. Plus vos questions seront précises et détaillées, plus vous aurez de chances d'obtenir des retours utiles de la communauté.
-
-## Partager votre solution
-
-Il existe plusieurs endroits où vous pouvez partager votre solution :
-
-1. Partagez la page de votre solution dans le canal **#finished-projects** de notre [communauté](https://www.frontendmentor.io/community).
-2. Partagez-la sur [X (anciennement Twitter)](https://x.com/frontendmentor) et mentionnez **@frontendmentor**, en incluant l'URL de votre dépôt et celle de votre site en ligne dans votre publication. Nous serons ravis de découvrir ce que vous avez réalisé et de vous aider à le faire connaître.
-3. Partagez votre solution sur [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Écrivez un article sur votre expérience lors de la réalisation du projet. Parler de votre méthode de travail, de vos choix techniques et de votre code est une excellente façon de renforcer ce que vous avez appris. Parmi les plateformes intéressantes pour publier vos articles, vous pouvez utiliser [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/) et [CodeNewbie](https://community.codenewbie.org/).
-
-Nous fournissons des modèles pour vous aider à partager votre solution une fois que vous l'avez soumise sur la plateforme. Pensez à les modifier et à inclure des questions précises lorsque vous recherchez des retours.
-
-Plus vos questions seront précises, plus vous aurez de chances qu'un autre membre de la communauté vous apporte une réponse utile.
-
-## Vous avez des retours à nous donner ?
-
-Nous aimons recevoir vos retours ! Nous cherchons constamment à améliorer nos challenges et notre plateforme. Si vous avez quelque chose à nous faire savoir, vous pouvez nous écrire à hi[at]frontendmentor[dot]io.
-
-Ce challenge est entièrement gratuit. N'hésitez pas à le partager avec toute personne qui pourrait trouver ce type d'exercice utile pour s'entraîner.
-
-**Amusez-vous bien !** 🚀
+- Frontend Mentor — [@isamu64]https://www.frontendmentor.io/profile/isamu64
