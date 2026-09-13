@@ -118,8 +118,13 @@ p {
   box-shadow: 10px 10px 5px black;
 }
 
+@media (max-width: 410px) {
+  .card {
+    width: 327px;
+  }
+}
+
 .logo {
-  width: 100%;
   margin-bottom: 24px;
   border-radius: 16px;
 }
@@ -149,7 +154,6 @@ h1:hover {
 
 .published {
   font-weight: 500;
-  font-size: 14px;
   margin-bottom: 12px;
   color: hsl(0, 0%, 7%);
   font-size: clamp(0.75rem, calc(0.706rem + 0.1878vw), 0.875rem);
@@ -157,7 +161,6 @@ h1:hover {
 
 .description {
   font-weight: 500;
-  font-size: 16px;
   margin-bottom: 24px;
   color: hsl(0, 0%, 42%);
   font-size: clamp(0.875rem, calc(0.831rem + 0.1878vw), 1rem);
