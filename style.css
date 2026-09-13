@@ -55,10 +55,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* 9. Improve line wrapping */
-à désactiver pour avoir un retour à la ligne normal p {
-  /* text-wrap: pretty; */
-}
 h1,
 h2,
 h3,
@@ -93,7 +89,7 @@ h2,
 h3,
 h4,
 p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -109,8 +105,8 @@ p {
 }
 
 .card {
-  width: 384px;
-  height: 522px;
+  width: 100%;
+  max-width: 384px;
   padding: 24px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 16px;
@@ -118,19 +114,12 @@ p {
   box-shadow: 10px 10px 5px black;
 }
 
-@media (max-width: 410px) {
-  .card {
-    width: 327px;
-  }
-}
-
 .logo {
   margin-bottom: 24px;
   border-radius: 16px;
 }
 h1 {
-  font-weight: 850;
-  font-size: 24px;
+  font-weight: 800;
   margin-bottom: 12px;
   color: hsl(0, 0%, 7%);
   cursor: pointer;
@@ -163,7 +152,7 @@ h1:hover {
   font-weight: 500;
   margin-bottom: 24px;
   color: hsl(0, 0%, 42%);
-  font-size: clamp(0.875rem, calc(0.831rem + 0.1878vw), 1rem);
+  font-size: clamp(14px, 4vw, 16px);
 }
 
 .author {
